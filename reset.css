@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*box-sizing*/
+    /*Es para que no aumente el valor original de las cosas*/
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,268 @@
+.header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #18181B;
+    color: white;
+    font-size: 15PX;
+    z-index: 5;
+    padding: 4px 15px;
+}
+
+
+
+.seccion-para-registrarse{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 61px;
+    z-index: 5;
+    background-color: #451093;
+    color: white;
+    font-size: 23px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton{
+    background-color: white;
+    font-size: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.logo{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.explorar{
+    cursor: pointer;
+}
+.tresp{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div{
+    display: flex;
+}
+
+.mensajeria{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+}
+
+.iniciar{
+    width: 90px;
+    height: 25px;
+    background-color: #35353B;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.iniciar button{
+    color: white;
+}
+
+.registro button{
+    color: white;
+    background-color: #541ba8;
+}
+
+.registro{
+    width: 75px;
+    height: 25px;
+    background-color: #772CE8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.usuario{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: white;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+input{
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    border-color: #e1e1e6;
+    outline: none;
+    background-color: #18181B;
+    color: white;
+}
+
+button{
+background-color: #18181B;
+border-radius: 0 5px 0 5px;
+cursor: pointer;
+}
+
+
+div .aside{
+    background-color: #0E0E10;
+    height: 100%;
+    width: 160px;
+    color: white;
+    z-index: 3;
+    position: fixed;
+    padding: 1px;
+    left: 0;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+
+div .main{
+    height:400vh;
+    width: 100%;
+    background-color: #0E0E10;
+    color: white;
+    padding: 52px 5px 0px 52px;
+}
+
+main #video{
+    background-color: #0E0E10;
+    margin-bottom: 100px;
+    margin-top: 0;
+    margin-left: 260px;
+    margin-right: 260px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#h1{
+    color: #A970FF;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+main  #section{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 200px 200px 200px;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-left: 120px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
+#section div{
+    cursor: pointer;
+}
+
+
+
+main div{
+    border: 3px solid;
+}
+
+#directo{
+    margin-top: 20px;
+    margin-left: 260px;
+    margin-right: 920px ;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: red;
+}
+
+div .grilla{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px ;
+    background-color: #26262C;
+    row-gap: 29px;
+    margin-top: 80px;
+}
+
+main #section2{
+    display: grid;
+    margin-top: 0px;
+    grid-template-columns: repeat(5, 6fr);
+    grid-template-rows: 60px 60px 60px;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mostrar{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#juegos{
+    background-color: #541ba8;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#IRL{
+    background-color: #541ba8;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#musica{
+    background-color: #541ba8;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#creative{
+    background-color: #541ba8;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#esports{
+    background-color: #541ba8;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.punto-rojo{
+    background-color: #26262C;
+}
+
+.rojoo{
+    background-color: #26262C
+}
+
+
+
